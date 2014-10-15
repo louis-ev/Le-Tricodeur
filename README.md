@@ -53,6 +53,7 @@ L'enjeu de ce workshop est de **mettre en place des visualisation de données is
 
 	![image](img/tricofont.png)
 
+---
 ###Les exemples d'utilisation de données Twitter et Facebook
 
 -	visualisation dans l'espace de l'activité journalière des tweets des dernières années d'un compte
