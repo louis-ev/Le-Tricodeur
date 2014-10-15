@@ -37,6 +37,7 @@ L'enjeu de ce workshop est de **mettre en place des visualisation de données is
 -	extension à Processing simulant l'affichage sur mailles dans une deuxième fenêtre sous Processing
 -	utilisation en mode "template de départ" avec la possibilité de fouiller dans les fichiers sources
 -	explications en bas de ce document.
+-	le bouton *TRICOTER* a été développé en collaboration avec Daviworks, créateur du logiciel img2track. Ce logiciel se charge de l'envoi du motif à la machine en utilisant le hack d'émulation de lecteur de cartouches Brother de Steve Conklin.
 
 	Aperçu du rendu de la bibliothèque
 	
