@@ -337,7 +337,7 @@ sup {
 
 <p>La Famille de caractère Tricofonttype (<a href="https://github.com/louis-ev/Le-Tricodeur">à télécharger sur github</a>) à été créée par Émilie Coquard et est également sous license Creative Commons.</p>
 
-<p>Les productions des participants du workshop (dossier SKETCHES_VIZ) sont la propriété de leurs auteurs respectifs et sont aussi sous license CC BY-SA.</p>
+<p>Les productions des participants du workshop (dans le dossier <a href="https://github.com/louis-ev/Le-Tricodeur/tree/master/SKETCHES_VIZ">SKETCHES_VIZ</a>) sont la propriété de leurs auteurs respectifs et sont aussi sous license CC BY-SA.</p>
 
 <ol>
 <li><h3>Slides de la conférence du workshop</h3>
@@ -1612,7 +1612,9 @@ void draw() {
 
 <h4>Aliasing</h4>
 
-<p>Puisque nous avons 2 couleurs, nous ne pouvons pas non plus utiliser l'aliasing pour lisser des formes. En Processing, cette fonction s'appelle smooth(). Ci-dessous, à gauche, motif lissé (smooth()) et non-lissé (nosmooth()). À gauche, on voit bien le nombre de niveaux de gris alors qu'à droite</p>
+<p>Puisque nous n'avons que 2 couleurs, nous ne pouvons pas non plus utiliser l'anti-aliasing (lissage en français) pour arrondir les formes. En Processing, la fonction pour utiliser l'aliasing s'appelle <code>smooth()</code> et est appliquée par défaut à tous les sketches.</p>
+
+<p>Ci-dessous, à gauche, le rendu par défaut et lissé : le motif est constitué de noir, de blanc et d'un grand nombre de niveaux de gris pour que la forme soit plus douce. À droite, par contre, sans lissage , le motif est uniquement composé de noir et blanc et pourra être tricoté à l'identique.</p>
 
 <p><img src="img/aliasing-smooth.png" alt="image" /> <img src="img/aliasing-nosmooth.png" alt="image" /></p>
 
@@ -1620,11 +1622,25 @@ void draw() {
 
 <p>Pour être sûr de n'avoir que 2 couleurs, nous devons donc ajouter la fonction noSmooth(); dans le void setup(). Cette fonction est incluse dans la bibliothèque de mailles.</p>
 
+<pre class="brush:pde; gutter: false; ">
+void setup() {  
+
+    noSmooth();
+    
+}
+
+</pre>
+
+
 <h4>Trames</h4>
 
-<p>Si vous utilisez plus de 2 couleurs (noir + blanc + gris, rouge + noir + blanc, noir + blanc + gris foncé + gris clair, etc.) et que img2track est enregistré pour utiliser 2 couleurs alors il procèdera à tramer votre motif. La couleur la plus sombre et la plus claire sont prises comme références tandis que les couleurs qui sont entre les deux sont tramées pour simuler les teintes intermédiaires.</p>
+<p>Si vous utilisez plus de 2 couleurs (noir + blanc + gris, rouge + noir + blanc, noir + blanc + gris foncé + gris clair, etc.) et que img2track est installé et enregistré pour utiliser 2 couleurs alors il procèdera à tramer votre motif. La couleur la plus sombre et la plus claire sont prises comme références tandis que les couleurs qui sont entre les deux sont tramées pour simuler les teintes intermédiaires.</p>
+
+<p>Ci-dessous, les encarts rectangulaires derrière les noms sont noir <code>color( 0 )</code> ou blanc <code>color( 255 )</code>, ils ne sont donc pas tramés. Par contre, les rectangles présents en-dessous sont de différentes teintes (par exemple <code>fill( 140 )</code> ou <code>fill( 220 )</code> ce qui produit une multitude de niveaux de gris. Ils sont donc tramés.</p>
 
 <p><img src="img/trames-fb.png" alt="image" /> <img src="img/trames-fb-trames.png" alt="image" /></p>
+
+<h5>Ces contraintes sont liées au tricot en 2 couleurs et peuvent être utilisées à votre avantage pour produire des motifs riches et étonnant.</h5>
 
 <h2>4. Visualisation de données</h2>
 

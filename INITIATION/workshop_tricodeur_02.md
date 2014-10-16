@@ -1235,7 +1235,9 @@ Le tricot en 2 couleurs passe très bien mais au-delà de 2 couleurs prend beauc
 
 #### Aliasing
 
-Puisque nous avons 2 couleurs, nous ne pouvons pas non plus utiliser l'aliasing pour lisser des formes. En Processing, cette fonction s'appelle smooth(). Ci-dessous, à gauche, motif lissé (smooth()) et non-lissé (nosmooth()). À gauche, on voit bien le nombre de niveaux de gris alors qu'à droite 
+Puisque nous n'avons que 2 couleurs, nous ne pouvons pas non plus utiliser l'anti-aliasing (lissage en français) pour arrondir les formes. En Processing, la fonction pour utiliser l'aliasing s'appelle `smooth()` et est appliquée par défaut à tous les sketches. 
+
+Ci-dessous, à gauche, le rendu par défaut et lissé : le motif est constitué de noir, de blanc et d'un grand nombre de niveaux de gris pour que la forme soit plus douce. À droite, par contre, sans lissage , le motif est uniquement composé de noir et blanc et pourra être tricoté à l'identique.
 
 ![image](img/aliasing-smooth.png) ![image](img/aliasing-nosmooth.png)
 
@@ -1243,11 +1245,25 @@ Puisque nous avons 2 couleurs, nous ne pouvons pas non plus utiliser l'aliasing 
 
 Pour être sûr de n'avoir que 2 couleurs, nous devons donc ajouter la fonction noSmooth(); dans le void setup(). Cette fonction est incluse dans la bibliothèque de mailles.
 
+<pre class="brush:pde; gutter: false; ">
+void setup() {	
+
+	noSmooth();
+	
+}
+
+</pre>
+
+
 #### Trames
 
-Si vous utilisez plus de 2 couleurs (noir + blanc + gris, rouge + noir + blanc, noir + blanc + gris foncé + gris clair, etc.) et que img2track est enregistré pour utiliser 2 couleurs alors il procèdera à tramer votre motif. La couleur la plus sombre et la plus claire sont prises comme références tandis que les couleurs qui sont entre les deux sont tramées pour simuler les teintes intermédiaires.
+Si vous utilisez plus de 2 couleurs (noir + blanc + gris, rouge + noir + blanc, noir + blanc + gris foncé + gris clair, etc.) et que img2track est installé et enregistré pour utiliser 2 couleurs alors il procèdera à tramer votre motif. La couleur la plus sombre et la plus claire sont prises comme références tandis que les couleurs qui sont entre les deux sont tramées pour simuler les teintes intermédiaires.
+
+Ci-dessous, les encarts rectangulaires derrière les noms sont noir `color( 0 )` ou blanc `color( 255 )`, ils ne sont donc pas tramés. Par contre, les rectangles présents en-dessous sont de différentes teintes (par exemple `fill( 140 )` ou `fill( 220 )` ce qui produit une multitude de niveaux de gris. Ils sont donc tramés.
 
 ![image](img/trames-fb.png) ![image](img/trames-fb-trames.png)
+
+#####Ces contraintes sont liées au tricot en 2 couleurs et peuvent être utilisées à votre avantage pour produire des motifs riches et étonnant.
 
 ## 4. Visualisation de données
 
