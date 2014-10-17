@@ -61,8 +61,86 @@ L'enjeu de ce workshop est de **mettre en place des visualisation de données is
 	
 	![image](img/visu-tweets.png)
 
+####Visualisation des personnes avec lesquelles Louis a le plus échangé récemment sur Facebook
+
+Données récupérées grâce à givememydata.com
+
+###### SKETCHES_VIZ/LOUIS/fb_messages_history_cercles_03/
+
+![image](SKETCHES_VIZ/LOUIS/fb_messages_history_cercles_03/apercu.png)
+
+#### Visualisation des jours ou l'utilisateur a tweeté depuis la création d'un compte (ici celui de Julien)
+
+Données récupérées grâce à twitter.com, compte de Julien V3ga.
+
+###### SKETCHES_VIZ/LOUIS/inititiation_twitter_timeline_01_e_jour/
+
+![image](SKETCHES_VIZ/LOUIS/inititiation_twitter_timeline_01_e_jour/apercu.png)
+
 
 
 ## Initiation au design génératif et à la visualisation de données 
 
 Voir [le site du workshop](http://letricodeur.com/workshop/)
+
+
+## Les projets
+
+### Visualisation des liens entre Charlotte et les personnes qui sont le plus mentionnées dans ses tweets.
+
+###### SKETCHES_VIZ/CHARLOTTE/visu_tweet_motif/
+
+![image](SKETCHES_VIZ/CHARLOTTE/visu_tweet_motif/apercu.png)
+
+###### SKETCHES_VIZ/CHARLOTTE/visu_tweet_placement_manuel/
+
+![image](SKETCHES_VIZ/CHARLOTTE/visu_tweet_placement_manuel/apercu.png)
+
+---
+### Visualisation de l'intensité des échanges de Charlotte en fonction des heures, sur Twitter.
+
+###### SKETCHES_VIZ/CHARLOTTE/visu_twitter_timeline/
+
+![image](SKETCHES_VIZ/CHARLOTTE/visu_twitter_timeline/apercu.png)
+
+---
+### Visualisation du trafic sur le Google Analytics de Guillaume.
+
+###### SKETCHES_VIZ/GUILLAUME/sketch__googleanalytics/
+
+![image](SKETCHES_VIZ/GUILLAUME/sketch__googleanalytics/apercu.png)
+
+---
+### Visualisation de révolution de la température sur Bordeaux heure par heure.
+
+###### SKETCHES_VIZ/GUILLAUME/temperaturesBordeaux/
+
+![image](SKETCHES_VIZ/GUILLAUME/temperaturesBordeaux/apercu.png)
+
+---
+### Visualisation de l'envoi de SMS entre Julien et ses contacts décomposé heure par heure sur une année. Les barres noires sont les messages reçus, les barres grises les messages envoyés.
+
+###### SKETCHES_VIZ/JULIEN/Tricodeur_SMS_Julien_Maille/
+
+![image](SKETCHES_VIZ/JULIEN/Tricodeur_SMS_Julien_Maille/apercu.png)
+
+---
+### Visualisation de la quantité de Like sur les photos du compte Instagram de Sew&Laine par Hamony
+
+à venir
+
+---
+### Visualisation du nombre de commentaires sur les photos du compte Instagram de Sew&Laine par Harmony
+
+à venir
+
+## Outils d'atelier
+
+### Outil de dessin
+
+![image](ATELIER/outil_dessin_04/preview.png)
+
+### Outil de prise de vue
+
+![image](ATELIER/outil_photo_02/preview.png)
+
