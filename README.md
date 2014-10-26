@@ -142,5 +142,5 @@ Voir [le site du workshop](http://letricodeur.com/workshop/)
 
 ### Outil de prise de vue
 
-![image](ATELIER/outil_photo_02/preview.png)
+![image](ATELIER/outil_photo_03/preview.png)
 
