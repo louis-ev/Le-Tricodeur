@@ -127,20 +127,28 @@ Voir [le site du workshop](http://letricodeur.com/workshop/)
 ---
 ### Visualisation de la quantité de Like sur les photos du compte Instagram de Sew&Laine par Hamony
 
-à venir
+###### SKETCHES_VIZ/HARMONY/Like_instagram_1/
+
+![image](SKETCHES_VIZ/HARMONY/Like_instagram_1/apercu.png)
 
 ---
 ### Visualisation du nombre de commentaires sur les photos du compte Instagram de Sew&Laine par Harmony
 
-à venir
+###### SKETCHES_VIZ/HARMONY/Commentaires_instagram_1/
+
+![image](SKETCHES_VIZ/HARMONY/Commentaires_instagram_1/apercu.png)
 
 ## Outils d'atelier
 
 ### Outil de dessin
 
+###### ATELIER/outil_dessin_04/
+
 ![image](ATELIER/outil_dessin_04/preview.png)
 
 ### Outil de prise de vue
+
+###### ATELIER/outil_photo_03/
 
 ![image](ATELIER/outil_photo_03/preview.png)
 
