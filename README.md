@@ -149,6 +149,7 @@ Voir [le site du workshop](http://letricodeur.com/workshop/)
 ### Outil de prise de vue
 
 ###### ATELIER/outil_photo_03/
+##### Mac app download [here](https://www.dropbox.com/s/mwnxxs4wxjdiy5h/PhotoKnit-03.app.zip?dl=0): 
 
 ![image](ATELIER/outil_photo_03/preview.png)
 
