@@ -46,7 +46,7 @@ L'enjeu de ce workshop est de **mettre en place des visualisation de données is
 ---
 ###La tricofont
 
--	famille de caractère créée pour la maille par Émilie Coquard
+-	famille de caractère créée pour la maille par [Émilie Coquard](http://www.emiliecoquard.fr)
 -	occupe le moins de place possible
 -	contient 3 variations : Regular, Italic et Bold
 -	distribuée en Creative Commons avec attribution
